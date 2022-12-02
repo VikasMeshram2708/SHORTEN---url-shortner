@@ -15,6 +15,37 @@
     <header>
       <h3 class="text-center">Shorten - URL shortner for your code... 🍰!</h3>
     </header>
+    <main>
+      <form class="container">
+        <div class="mb3">
+          <label class="form-label" for="url">Url</label>
+          <input
+            class="form-control"
+            type="text"
+            placeholder="https://example.com"
+            name="url"
+            id="url"
+          />
+        </div>
+        <div class="mb-3 mt-3">
+          <label class="form-label" for="url">Slug</label>
+
+          <input
+            class="form-control"
+            type="text"
+            placeholder="pan-cake"
+            name="slug"
+            id="slug"
+          />
+        </div>
+        <button class="btn btn-outline-danger">Shorten</button>
+      </form>
+      <div class="text-center">
+        <a class="generated">{{}}</a>
+      </div>
+    </main>
+    <!-- custome scripts -->
+    <script src="index.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
